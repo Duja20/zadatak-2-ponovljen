@@ -1,0 +1,171 @@
+@media screen and (max-width:767px){
+  body {
+    overflow-x: hidden;
+}
+
+nav {
+  padding: 40px 0;
+}
+
+.mobile-menu {
+    display: block;
+    float: right;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+    margin-right: 35px;
+    margin-top: -15px;
+}
+
+.navigation {
+    display: none;
+    float: none;
+    position: relative;
+    z-index: 2;
+}
+.main-titles {
+  margin-left: 0;
+}
+
+.profile-icon {
+  padding-top: 50px;
+}
+
+.paragraph-about {
+  font-size: 18px;
+}
+
+.name {
+  padding-left: 90px;
+}
+
+.paragraph-working-experience {
+  font-size: 18px;
+}
+
+.download-button {
+  margin: 30px auto;
+  font-size: 16px;
+}
+
+.education img {
+  max-width: 100%;
+}
+
+.skills {
+  margin-top: -50px;
+}
+
+.skills-interests img {
+    max-width: 100%;
+    margin: 100px auto;
+}
+
+.skills-interests > div {
+    width: 100%;
+    display: block;
+}
+
+.other-interests-image {
+  max-width: 100%;
+  margin-right: -80px;
+  margin-left: -5px;
+  padding-top: 0px;
+}
+
+.other-interests {
+  margin-top: -80px;
+  font-size: 18px;
+  max-width: 100%;
+}
+
+.title-program-skills,
+.title-personal-skills,
+.title-other-interests,
+.title-language-skills {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.language-skills-image {
+  padding-top: 0px;
+}
+
+.title-personal-skills,
+.title-other-interests {
+  padding-left: 0px;
+}
+
+.international-experience img {
+    max-width: 100%;
+}
+
+.footer-component {
+    width: 100%;
+    display:block;
+}
+
+.schools > img{
+    max-width: 100%;
+}
+
+.projects {
+  max-width: none;
+  margin: 0;
+  height: auto;
+  display: table;
+}
+
+.hover-mask{
+  display: none;
+}
+
+.projects-container{
+  height: auto;
+  display: table;
+}
+
+.projects-item {
+  display: block;
+  float: none;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.projects-item img{
+  max-width: 100%;
+}
+
+.projects-item:nth-child(2){
+  float: none;
+  display: table-footer-group;
+}
+
+.view-button{
+    margin: 70px auto;
+    font-size: 16px;
+}
+
+.hover-text,
+.hover-title {
+  font-size: 18px;
+}
+
+.right-image{
+    background-size: 100%;
+    height: 335px;
+}
+
+.about,
+.working-experience,
+.education,
+.skills-interests,
+.projects,
+.international-experience {
+  padding: 0 15px;
+  margin-top: 30px;
+}
